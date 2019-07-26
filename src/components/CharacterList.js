@@ -17,12 +17,14 @@ export default function CharacterList( props ) {
         console.log("You did NOT do it", error)
       })
   }, [])
+
   return (
     <section className='character-list grid-view'>
       {characters.map( character => (
           <CharacterCard
           img={character.image}
           species={character.species}
+          origin={character.origin.name}
           name={character.name}
           status={character.status}
           id={character.id} />

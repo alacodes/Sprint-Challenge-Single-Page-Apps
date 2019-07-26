@@ -8,6 +8,7 @@ export default function CharacterCard ( props ) {
       header={props.name}
       meta={props.status}
       description={props.species}
+      extra={props.origin}
     />
   );
 }
