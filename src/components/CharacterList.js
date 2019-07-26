@@ -21,7 +21,7 @@ export default function CharacterList( props ) {
     <section className='character-list grid-view'>
       {characters.map( character => (
           <CharacterCard
-          img={character.img}
+          img={character.image}
           species={character.species}
           name={character.name}
           status={character.status}

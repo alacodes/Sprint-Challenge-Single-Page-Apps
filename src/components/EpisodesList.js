@@ -24,7 +24,7 @@ export default function EpisodesList( props ) {
                 episode={episode}
                 name={episode.name}
                 airDate={episode.air_date}
-                number={episode.id} />
+                number={episode.id}/>
             ))}
         </section>
     );
