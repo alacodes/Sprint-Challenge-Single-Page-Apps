@@ -25,28 +25,34 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 - [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
+> Answer: All webpages are accessed from a server. Server-side routing requests information directly from the server, causing the whole page to refresh, every time something is clicked on by the user. Unfortunately, since every request turns into a full-page refresh, pages can take longer to render than client-side. Client-side routing is made up of internal routes implemented by JavaScript. Whenever a user clicks on a link, picture, etc., the URL will change, causing an altered view of the page they’re on. In other words, the full-on request from the server will be blocked which prevents a refresh of the page from happening. The benefit of this is that it’s faster to load, but it requires more setup work on the developers part. Also, since the industry standard has been server-side routing for so long, search engine crawling is less optimized. 
+
+
 - [ ] What does AJAX stand for?
-> Answer:
+> Answer: AJAX is short for Asynchronous JavaScript and XML
+
+
 - [ ] What are `controlled components` in React?
-> Answer:
+> Answer: A controlled component's input value is explicitly defined by state.
+
+
 - [ ] Name three tools/libraries for making AJAX requests.
-> Answer:
+> Answer: We can use Axios, jQuery, and Fetch as well as many other libraries to make our AJAX requests.
 
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on GitHub.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on this branch, committing changes regularly.
-- [ ] Push commits: `git push origin <firstName-lastName>`.
-- [ ] **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
-- [ ] **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
-- [ ] **RUN** `yarn start` or `npm start` to fire up your React application.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on GitHub.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
+- [x] Implement the project on this branch, committing changes regularly.
+- [x] Push commits: `git push origin <firstName-lastName>`.
+- [x] **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
+- [x] **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
+- [x] **RUN** `yarn start` or `npm start` to fire up your React application.
 
 [Instructions to completing](#completing)
 
